@@ -1,0 +1,13 @@
+# ── Core ML Libraries ─────────────────────────────────────────────
+sentence-transformers
+datasets
+
+# ── Deep Learning Backend (auto-installed with sentence-transformers)
+# torch          ← installed automatically as a dependency
+# transformers   ← installed automatically as a dependency
+# tokenizers     ← installed automatically as a dependency
+# huggingface-hub ← installed automatically as a dependency
+
+# ── Optional: Faster Training on GPU ──────────────────────────────
+# accelerate     ← recommended for fp16=True training on GPU
+accelerate
